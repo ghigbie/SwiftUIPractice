@@ -9,11 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Hello, universe!")
             .fontWeight(.bold)
             .font(.title)
             .frame(width: 1000, height: 1000)
-            .background(Color(.systemRed))
+            .background(Image("gallaxy"))
             .foregroundColor(Color(.white))
          
     }
