@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, universe!")
+        Text("Hello, Universe!")
             .fontWeight(.bold)
-            .font(.title)
-            .frame(width: 1000, height: 1000)
+            .font(.largeTitle)
             .background(Image("gallaxy"))
             .foregroundColor(Color(.white))
+            .shadow(radius: 3)
          
     }
 }
